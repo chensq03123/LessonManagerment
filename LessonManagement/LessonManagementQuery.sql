@@ -1,0 +1,14 @@
+﻿use LessonManagement;
+--insert into User_Info(User_LoginName,User_LoginPwd) values('test','123456');
+--select * from User_Info;
+--create table teacher_info(id int primary key Identity(1,1),Teacher_Name varchar(20));
+--select * from teacher_info;
+--alter table teacher_info alter column Teacher_Name nvarchar(20);
+--delete from teacher_info;
+--drop table teacher_info;
+--create table teacher_info(id int primary key identity(1,1),Teacher_Name nvarchar(20) COLLATE Chinese_PRC_CS_AS_WS);
+--insert into teacher_info(Teacher_Name) values('陈水强');
+--alter table teacher_info alter column  Teacher_Name nvarchar(20) collate Chinese_PRC_90_CI_AS;
+--select * from teacher_info;
+--insert into teacher_info(Teacher_Name) values(N'陈水枪chensq');
+--delete from teacher_info;

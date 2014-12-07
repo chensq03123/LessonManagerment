@@ -1,0 +1,75 @@
+﻿
+html 	{ 
+		min-width:800px;
+		overflow:scroll;
+		
+		}
+body 
+{
+    background-color:#ffffff;
+    font-family:"幼圆"; 
+    margin:0;
+ 
+}
+div.main
+{
+  
+		margin: 0 auto;
+		padding: 0;
+		border: 0;
+		width: 1000px;
+		
+}
+
+
+h1
+{
+    font-family:"华文彩云";
+    color:#006699;
+    }
+table
+{
+    border-collapse:collapse;
+    border: 4px solid #006699;
+    }
+ tr
+ {
+     color:#006699;
+     }
+     
+     
+ .style2
+        {
+            height: 53px;
+            width: 360px;
+        }
+        .style4
+        {
+            height: 53px;
+            width: 257px;
+        }
+        .style6
+        {
+            height: 59px;
+            width: 257px;
+        }
+        .style7
+        {
+            height: 59px;
+            width: 360px;
+        }
+        .style8
+        {
+            height: 81px;
+            width: 257px;
+        }
+        .style9
+        {
+            height: 81px;
+            width: 360px;
+        }
+        .errer_msg
+{
+    font-size:18px;
+    color:Red;
+}

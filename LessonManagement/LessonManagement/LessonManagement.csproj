@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F38A0515-8707-415C-A73B-1F5A7BC63B51}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LessonManagement</RootNamespace>
+    <AssemblyName>LessonManagement</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Active.aspx" />
+    <Content Include="CSS\AllNetQuality.css" />
+    <Content Include="CSS\BasDataIn.css" />
+    <Content Include="CSS\BasDataSerEdit.css" />
+    <Content Include="CSS\BasDataSerView.css" />
+    <Content Include="CSS\bootstrap-responsive.css" />
+    <Content Include="CSS\bootstrap.css" />
+    <Content Include="CSS\BS_Info.css" />
+    <Content Include="CSS\CloudPictureView.css" />
+    <Content Include="CSS\ComContactView.css" />
+    <Content Include="CSS\ComInfoAddOrEdit.css" />
+    <Content Include="CSS\ComInfoListView.css" />
+    <Content Include="CSS\darktooltips.min.css" />
+    <Content Include="CSS\DesignerDataSelections.css" />
+    <Content Include="CSS\DesignerDimensionSelections.css" />
+    <Content Include="CSS\DesignerEvaDataOutView.css" />
+    <Content Include="CSS\DesignerHeader.css" />
+    <Content Include="CSS\DesignerIntegratedQuery.css" />
+    <Content Include="CSS\DesignerMainPage.css" />
+    <Content Include="CSS\DesignerMapTools.css" />
+    <Content Include="CSS\DesignerOverlayPictureView.css" />
+    <Content Include="CSS\DesignerTimeSelection.css" />
+    <Content Include="CSS\DrawingManager_min.css" />
+    <Content Include="CSS\EvaDataInEdit.css" />
+    <Content Include="CSS\EvaDataInView.css" />
+    <Content Include="CSS\EvaDataOutView.css" />
+    <Content Include="CSS\GridOneNetQuality.css" />
+    <Content Include="CSS\GridTwoNetQuality.css" />
+    <Content Include="CSS\Header.css" />
+    <Content Include="CSS\Index.css" />
+    <Content Include="CSS\IntegratedQuery.css" />
+    <Content Include="CSS\LoginLogView.css" />
+    <Content Include="CSS\main.css" />
+    <Content Include="CSS\MainPage.css" />
+    <Content Include="CSS\MapRegion.css" />
+    <Content Include="CSS\Menu.css" />
+    <Content Include="CSS\OpLogView.css" />
+    <Content Include="CSS\OverlayModel.css" />
+    <Content Include="CSS\Resource_Info.css" />
+    <Content Include="CSS\SearchRegion.css" />
+    <Content Include="CSS\SelfUserInfoViewAndEdit.css" />
+    <Content Include="CSS\Statistics_Info.css" />
+    <Content Include="CSS\StyleSheet.css" />
+    <Content Include="CSS\UserInfoAddOrEdit.css" />
+    <Content Include="CSS\UserInfoListView.css" />
+    <Content Include="excel.aspx" />
+    <Content Include="imgs\1-1.jpg" />
+    <Content Include="imgs\1-2.jpg" />
+    <Content Include="imgs\1.jpg" />
+    <Content Include="imgs\1to2.png" />
+    <Content Include="imgs\1to2_b.png" />
+    <Content Include="imgs\2-1.jpg" />
+    <Content Include="imgs\2-2.jpg" />
+    <Content Include="imgs\2.jpg" />
+    <Content Include="imgs\2.png" />
+    <Content Include="imgs\20091002142650596.png" />
+    <Content Include="imgs\22.jpg" />
+    <Content Include="imgs\25_1iJSMxgoN_副本.png" />
+    <Content Include="imgs\2to1.png" />
+    <Content Include="imgs\2to1_b.png" />
+    <Content Include="imgs\3-1.jpg" />
+    <Content Include="imgs\3-2.jpg" />
+    <Content Include="imgs\3.jpg" />
+    <Content Include="imgs\4-1.jpg" />
+    <Content Include="imgs\4-2.jpg" />
+    <Content Include="imgs\4.jpg" />
+    <Content Include="imgs\4906108844066736754.gif" />
+    <Content Include="imgs\5-1.jpg" />
+    <Content Include="imgs\5-120601094355.gif" />
+    <Content Include="imgs\5-1206010S413-50.gif" />
+    <Content Include="imgs\5-2.jpg" />
+    <Content Include="imgs\6.jpg" />
+    <Content Include="imgs\7.jpg" />
+    <Content Include="imgs\a.jpg" />
+    <Content Include="imgs\aaa.png" />
+    <Content Include="imgs\add.jpg" />
+    <Content Include="imgs\addCompany.jpg" />
+    <Content Include="imgs\addNew.jpg" />
+    <Content Include="imgs\arrow_blue.png" />
+    <Content Include="imgs\background_pop-up.png" />
+    <Content Include="imgs\background_tool bar.png" />
+    <Content Include="imgs\background_tool_bar.png" />
+    <Content Include="imgs\body.jpg" />
+    <Content Include="imgs\btn-login1.jpg" />
+    <Content Include="imgs\cancel.jpg" />
+    <Content Include="imgs\check.jpg" />
+    <Content Include="imgs\check1.jpg" />
+    <Content Include="imgs\checkAll.jpg" />
+    <Content Include="imgs\chinamobile-logo.png" />
+    <Content Include="imgs\choose.jpg" />
+    <Content Include="imgs\close.png" />
+    <Content Include="imgs\computer.png" />
+    <Content Include="imgs\computer_small.png" />
+    <Content Include="imgs\count1.jpg" />
+    <Content Include="imgs\count2.jpg" />
+    <Content Include="imgs\countCell.jpg" />
+    <Content Include="imgs\dropdown_btn.jpg" />
+    <Content Include="imgs\dropup_btn.jpg" />
+    <Content Include="imgs\excel.jpg" />
+    <Content Include="imgs\export.jpg" />
+    <Content Include="imgs\export1.jpg" />
+    <Content Include="imgs\firstPage.jpg" />
+    <Content Include="imgs\full_close.gif" />
+    <Content Include="imgs\glyphicons-halflings-white.png" />
+    <Content Include="imgs\glyphicons-halflings.png" />
+    <Content Include="imgs\green.ico" />
+    <Content Include="imgs\Grid.png" />
+    <Content Include="imgs\grid1.png" />
+    <Content Include="imgs\grid2.png" />
+    <Content Include="imgs\Grid3.png" />
+    <Content Include="imgs\grid_1.png" />
+    <Content Include="imgs\grid_2.png" />
+    <Content Include="imgs\gsm_cell.png" />
+    <Content Include="imgs\hand_cursor.png" />
+    <Content Include="imgs\hand_cursor_blue.png" />
+    <Content Include="imgs\hand_cursor_orange.png" />
+    <Content Include="imgs\hand_cursor_red.png" />
+    <Content Include="imgs\hand_cursor_white.png" />
+    <Content Include="imgs\headbg2-i.png" />
+    <Content Include="imgs\header.jpg" />
+    <Content Include="imgs\header.png" />
+    <Content Include="imgs\hedergv.jpg" />
+    <Content Include="imgs\hedergv1.jpg" />
+    <Content Include="imgs\hedergv2.jpg" />
+    <Content Include="imgs\hospital.jpg" />
+    <Content Include="imgs\import.jpg" />
+    <Content Include="imgs\in_gsm1800.png" />
+    <Content Include="imgs\in_gsm1800_small.png" />
+    <Content Include="imgs\in_gsm900.png" />
+    <Content Include="imgs\in_gsm900_small.png" />
+    <Content Include="imgs\in_lte.png" />
+    <Content Include="imgs\in_lte_small.png" />
+    <Content Include="imgs\in_td.png" />
+    <Content Include="imgs\in_td_small.png" />
+    <Content Include="imgs\lastPage.jpg" />
+    <Content Include="imgs\leftNav.jpg" />
+    <Content Include="imgs\lll.jpg" />
+    <Content Include="imgs\locate.jpg" />
+    <Content Include="imgs\location_1.png" />
+    <Content Include="imgs\login-bg.gif" />
+    <Content Include="imgs\login.jpg" />
+    <Content Include="imgs\loginbtn.jpg" />
+    <Content Include="imgs\login_bg.png" />
+    <Content Include="imgs\login_border.png" />
+    <Content Include="imgs\logo.png" />
+    <Content Include="imgs\LOGO1.png" />
+    <Content Include="imgs\LOGO_1.png" />
+    <Content Include="imgs\logo_cm.jpg" />
+    <Content Include="imgs\lte_cell.png" />
+    <Content Include="imgs\main_48.png" />
+    <Content Include="imgs\main_bg.jpg" />
+    <Content Include="imgs\main_hover.gif" />
+    <Content Include="imgs\main_menu.png" />
+    <Content Include="imgs\mapinfo_but.png" />
+    <Content Include="imgs\newRegion.jpg" />
+    <Content Include="imgs\NewUser.jpg" />
+    <Content Include="imgs\nextPage.jpg" />
+    <Content Include="imgs\out_gsm1800.png" />
+    <Content Include="imgs\out_gsm1800_small.png" />
+    <Content Include="imgs\out_gsm900.png" />
+    <Content Include="imgs\out_gsm900_small.png" />
+    <Content Include="imgs\out_lte.png" />
+    <Content Include="imgs\out_lte_small.png" />
+    <Content Include="imgs\out_td.png" />
+    <Content Include="imgs\out_td_small.png" />
+    <Content Include="imgs\pin.png" />
+    <Content Include="imgs\prePage.jpg" />
+    <Content Include="imgs\relation.jpg" />
+    <Content Include="imgs\resource.png" />
+    <Content Include="imgs\resourse_map.png" />
+    <Content Include="imgs\return.jpg" />
+    <Content Include="imgs\Rupdate.jpg" />
+    <Content Include="imgs\save.jpg" />
+    <Content Include="imgs\scene.jpg" />
+    <Content Include="imgs\scenebackground_tool_bar.png" />
+    <Content Include="imgs\school.jpg" />
+    <Content Include="imgs\select-a-point_1.png" />
+    <Content Include="imgs\select-a-point_2.png" />
+    <Content Include="imgs\select-a-point_2_blue.png" />
+    <Content Include="imgs\select-a-point_2_green.png" />
+    <Content Include="imgs\select-a-point_2_orange.png" />
+    <Content Include="imgs\select-a-point_2_red.png" />
+    <Content Include="imgs\select-region_1.png" />
+    <Content Include="imgs\select-region_2.png" />
+    <Content Include="imgs\serach.jpg" />
+    <Content Include="imgs\serach_btn.png" />
+    <Content Include="imgs\shad_top.png" />
+    <Content Include="imgs\shopping.jpg" />
+    <Content Include="imgs\show.jpg" />
+    <Content Include="imgs\showCloud.jpg" />
+    <Content Include="imgs\showgrid.png" />
+    <Content Include="imgs\slogan.png" />
+    <Content Include="imgs\spots.jpg" />
+    <Content Include="imgs\submit.jpg" />
+    <Content Include="imgs\sub_menu_bg.jpg" />
+    <Content Include="imgs\td_cell.png" />
+    <Content Include="imgs\top_02.gif" />
+    <Content Include="imgs\top_bg.jpg" />
+    <Content Include="imgs\turn.jpg" />
+    <Content Include="imgs\turnMap.jpg" />
+    <Content Include="imgs\vip.png" />
+    <Content Include="imgs\wlan.png" />
+    <Content Include="imgs\wlan_cell.png" />
+    <Content Include="imgs\wlan_small.png" />
+    <Content Include="imgs\上一页按钮.gif" />
+    <Content Include="imgs\下一页按钮.gif" />
+    <Content Include="imgs\中国移动.png" />
+    <Content Include="imgs\中国移动1.png" />
+    <Content Include="imgs\中国移动通信logo.jpg" />
+    <Content Include="imgs\云图播放.png" />
+    <Content Include="imgs\云图暂停.png" />
+    <Content Include="imgs\优良差标示条.png" />
+    <Content Include="imgs\保存修改按钮.png" />
+    <Content Include="imgs\保存按钮.png" />
+    <Content Include="imgs\修改.png" />
+    <Content Include="imgs\取消按钮.png" />
+    <Content Include="imgs\导入按钮.png" />
+    <Content Include="imgs\导入数据按钮.png" />
+    <Content Include="imgs\导出Excel按钮.png" />
+    <Content Include="imgs\导出按钮.png" />
+    <Content Include="imgs\尾页按钮.gif" />
+    <Content Include="imgs\搜索按钮.png" />
+    <Content Include="imgs\新增合作单位按钮.png" />
+    <Content Include="imgs\未命名_副本.png" />
+    <Content Include="imgs\查询历史数据按钮.png" />
+    <Content Include="imgs\注册按钮.png" />
+    <Content Include="imgs\添加新指标按钮.png" />
+    <Content Include="imgs\添加新用户按钮.png" />
+    <Content Include="imgs\登录按钮.png" />
+    <Content Include="imgs\移动.jpg" />
+    <Content Include="imgs\移动口号.png" />
+    <Content Include="imgs\移动图标图片.jpg" />
+    <Content Include="imgs\跳转按钮.gif" />
+    <Content Include="imgs\返回.png" />
+    <Content Include="imgs\退出按钮.png" />
+    <Content Include="imgs\首页按钮.gif" />
+    <Content Include="MainPage.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Active.aspx.cs">
+      <DependentUpon>Active.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="excel.aspx.cs">
+      <DependentUpon>excel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="excel.aspx.designer.cs">
+      <DependentUpon>excel.aspx</DependentUpon>
+    </Compile>
+    <Content Include="App_Code\AccessQualityDAL.cs" />
+    <Content Include="App_Code\CapacitySubjectDAL.cs" />
+    <Content Include="App_Code\DataInfoHelper.cs" />
+    <Content Include="App_Code\DataProcessHelper.cs" />
+    <Content Include="App_Code\MaintainQualityDAL.cs" />
+    <Content Include="App_Code\OleDbHelper.cs" />
+    <Content Include="App_Code\StableQualityDAL.cs" />
+    <Content Include="App_Code\SubjectDAL.cs" />
+    <Content Include="App_Code\SysRecord.cs" />
+    <Compile Include="MainPage.aspx.cs">
+      <DependentUpon>MainPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Excel\GSM.xls" />
+    <None Include="Excel\GSM.xlsx" />
+    <None Include="Excel\GSM指标表.xlsx" />
+    <None Include="Excel\LTE.xls" />
+    <None Include="Excel\TD.xls" />
+    <None Include="Excel\WLAN.xls" />
+    <None Include="Excel\WLAN_test.xls" />
+    <Content Include="web.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>56748</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
