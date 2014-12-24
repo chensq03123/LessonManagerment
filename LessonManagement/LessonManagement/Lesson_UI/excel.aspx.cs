@@ -128,13 +128,13 @@ public partial class excel : System.Web.UI.Page
         SqlConnection sqlconn = new SqlConnection(connectionString);
         SqlCommand cmd = new SqlCommand();
         cmd.Connection = sqlconn;
-        cmd.CommandText = "addplan";
+        cmd.CommandText = "querylesson";
         cmd.CommandType = CommandType.StoredProcedure;
         IDataParameter[] parameters={
             new SqlParameter("@T_id", SqlDbType.Int, 4),
-             new SqlParameter("@L_id", SqlDbType.Int, 4),
-             new SqlParameter("@w_begin", SqlDbType.Int, 4),
-             new SqlParameter("@w_end", SqlDbType.Int, 4),
+            new SqlParameter("@L_id", SqlDbType.Int, 4),
+            new SqlParameter("@w_begin", SqlDbType.Int, 4),
+            new SqlParameter("@w_end", SqlDbType.Int, 4),
             new SqlParameter("@classnum", SqlDbType.Int, 4),
             new SqlParameter("@weeknum", SqlDbType.Int, 4)
         };
@@ -148,17 +148,27 @@ public partial class excel : System.Web.UI.Page
 
         foreach(IDbDataParameter i in parameters)
         {
-            cmd.Parameters.Add(i);
+           // cmd.Parameters.Add(i);
         }
 
-        sqlconn.Open();
-        TextBox1.Text = cmd.ExecuteNonQuery().ToString();
-        sqlconn.Close();
-
-
-
-               
+        SqlDataAdapter sda = new SqlDataAdapter(cmd);
+        DataSet ds = new DataSet();
+        sda.Fill(ds);
+        //ds.J
+        GridView1.DataSource = ds;
+        GridView1.DataBind();
+        // sqlconn.Open();
+        //logcat.Text = ds.ToString();
+        //sqlconn.Close();
+             
     }
+
+
+    protected void insert_Click(object sender, EventArgs e)
+    {
+
+    }
+
     protected void Button1_Click(object sender, EventArgs e)
     {
         ExecuteSql("insert  INTO [teacher_info]([Teacher_Name]) values (N' "+TextBox1.Text.ToString()+" ' )");
