@@ -88,8 +88,11 @@ select * from plantable left join timetable on plantable.id=timetable.planid rig
 --insert into timetable(planid,weeknum,classnum) values (1,5,5)
 --select * from plantable left join timetable on plantable.id=timetable.planid right join  teacher_info on plantable.teacherid=teacher_info.id right join Lesson_Info on plantable.lessonid=Lesson_Info.id
 --create table classtable(id int primary key identity(1,1),classname nvarchar(20) collate Chinese_PRC_90_CI_AS,planid int)
-go 
+/*go 
 create procedure querylesson
 as
 select * from plantable left join timetable on plantable.id=timetable.planid right join  teacher_info on plantable.teacherid=teacher_info.id right join Lesson_Info on plantable.lessonid=Lesson_Info.id
+*/
 
+--alter table Lesson_Info add lesson_property nvarchar(30) collate Chinese_PRC_90_CI_AS;
+--select * from Lesson_Info;
